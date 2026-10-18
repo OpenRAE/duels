@@ -453,7 +453,17 @@ def render_dataset_card(config: dict[str, Any], counts: dict[str, int]) -> str:
         "license": hub_license or "other",
         "language": dataset.get("language", ["en"]),
         "task_categories": ["text-generation"],
-        "tags": ["agent-traces", "cybersecurity", "red-team", "blue-team", "tool-use", "openrae"],
+        "tags": [
+            "agent-traces",
+            "agents",
+            "cybersecurity",
+            "red-team",
+            "blue-team",
+            "offensive-ai",
+            "defensive-ai",
+            "tool-use",
+            "openrae",
+        ],
         "configs": [
             {
                 "config_name": name,
