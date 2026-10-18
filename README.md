@@ -18,7 +18,7 @@ views for analysis and inspection.
 Versioned archives and their SHA-256 checksums are distributed through
 [GitHub Releases](https://github.com/OpenRAE/duels/releases). The same archive
 is prepared for preservation on Zenodo, while unpacked tables and trace views
-are prepared for the [Hugging Face dataset](https://huggingface.co/datasets/OpenRAE/duels).
+are prepared for the [Hugging Face dataset](https://huggingface.co/datasets/openrae/duels).
 
 Each archive contains:
 
