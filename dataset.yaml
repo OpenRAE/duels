@@ -19,14 +19,14 @@ dataset:
     - cyber range
     - OpenRÆ
   data_license: CC-BY-4.0
-  doi: null
+  doi: 10.5281/zenodo.23459249
   creators:
     - given_names: Brad
       family_names: Edwards
   publisher: Zenodo
   repository_url: https://github.com/OpenRAE/duels
   huggingface_url: https://huggingface.co/datasets/OpenRAE/duels
-  zenodo_url: null
+  zenodo_url: https://zenodo.org/records/23459249
 sources:
   archive_root: null
   platform:
