@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openrae-duels-release"
+version = "0.1.0"
+description = "Reproducible release builder for the OpenRÆ Duels dataset"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+  "pyarrow>=18,<22",
+  "PyYAML>=6.0,<7",
+]
+
+[project.scripts]
+openrae-duels-build = "openrae_agent_duels.build:main"
+openrae-duels-validate = "openrae_agent_duels.validate:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openrae_agent_duels"]

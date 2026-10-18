@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openrae.dev/datasets/duels/schema/episodes.schema.json",
+  "title": "OpenR\u00c6 Duels episodes row",
+  "type": "object",
+  "properties": {
+    "episode_id": {
+      "description": "Arrow type: string"
+    },
+    "range_id": {
+      "description": "Arrow type: int64"
+    },
+    "started_at": {
+      "description": "Arrow type: string"
+    },
+    "ended_at": {
+      "description": "Arrow type: string"
+    },
+    "duration_seconds": {
+      "description": "Arrow type: double"
+    },
+    "container_count": {
+      "description": "Arrow type: int32"
+    },
+    "telemetry_cleanup_deleted": {
+      "description": "Arrow type: int64"
+    },
+    "telemetry_cleanup_remaining": {
+      "description": "Arrow type: int64"
+    },
+    "telemetry_cleanup_json": {
+      "description": "Arrow type: string"
+    },
+    "curation_status": {
+      "description": "Arrow type: string"
+    },
+    "curation_source": {
+      "description": "Arrow type: string"
+    },
+    "qualified_scope": {
+      "description": "Arrow type: string"
+    },
+    "bank_position": {
+      "description": "Arrow type: int32"
+    },
+    "variant": {
+      "description": "Arrow type: string"
+    },
+    "decision": {
+      "description": "Arrow type: string"
+    },
+    "canonical_archive_path": {
+      "description": "Arrow type: string"
+    },
+    "alternate_copy_count": {
+      "description": "Arrow type: int32"
+    },
+    "raw_bytes": {
+      "description": "Arrow type: int64"
+    },
+    "raw_event_count": {
+      "description": "Arrow type: int64"
+    },
+    "message_count": {
+      "description": "Arrow type: int64"
+    },
+    "tool_call_count": {
+      "description": "Arrow type: int64"
+    },
+    "tool_result_count": {
+      "description": "Arrow type: int64"
+    },
+    "red_prompt_sha256": {
+      "description": "Arrow type: string"
+    },
+    "blue_prompt_sha256": {
+      "description": "Arrow type: string"
+    },
+    "qualification_json": {
+      "description": "Arrow type: string"
+    },
+    "candidate_json": {
+      "description": "Arrow type: string"
+    },
+    "research_json": {
+      "description": "Arrow type: string"
+    },
+    "bank_json": {
+      "description": "Arrow type: string"
+    },
+    "raw_episode_json": {
+      "description": "Arrow type: string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "curation_status",
+    "curation_source",
+    "canonical_archive_path",
+    "alternate_copy_count",
+    "raw_bytes",
+    "raw_event_count",
+    "message_count",
+    "tool_call_count",
+    "tool_result_count",
+    "raw_episode_json"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openrae.dev/datasets/duels/schema/director_records.schema.json",
+  "title": "OpenR\u00c6 Duels director_records row",
+  "type": "object",
+  "properties": {
+    "sequence": {
+      "description": "Arrow type: int64"
+    },
+    "timestamp": {
+      "description": "Arrow type: string"
+    },
+    "episode_id": {
+      "description": "Arrow type: string"
+    },
+    "range_id": {
+      "description": "Arrow type: int64"
+    },
+    "role": {
+      "description": "Arrow type: string"
+    },
+    "kind": {
+      "description": "Arrow type: string"
+    },
+    "variant": {
+      "description": "Arrow type: string"
+    },
+    "status": {
+      "description": "Arrow type: string"
+    },
+    "outcome": {
+      "description": "Arrow type: string"
+    },
+    "reason": {
+      "description": "Arrow type: string"
+    },
+    "guidance": {
+      "description": "Arrow type: string"
+    },
+    "notes": {
+      "description": "Arrow type: string"
+    },
+    "visibility": {
+      "description": "Arrow type: string"
+    },
+    "source_path": {
+      "description": "Arrow type: string"
+    },
+    "source_line": {
+      "description": "Arrow type: int64"
+    },
+    "raw_json": {
+      "description": "Arrow type: string"
+    }
+  },
+  "required": [
+    "sequence",
+    "source_path",
+    "source_line",
+    "raw_json"
+  ],
+  "additionalProperties": false
+}

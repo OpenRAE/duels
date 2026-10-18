@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the versioned Zenodo record."
+type: dataset
+title: "OpenRÆ Duels: BSidesNYC 2026 Red–Blue Agent Traces"
+version: "1.0.0"
+license: "CC-BY-4.0"
+authors:
+  - family-names: "Edwards"
+    given-names: "Brad"
+date-released: 2026-10-18
+url: "https://github.com/OpenRAE/duels"

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openrae.dev/datasets/duels/schema/artifacts.schema.json",
+  "title": "OpenR\u00c6 Duels artifacts row",
+  "type": "object",
+  "properties": {
+    "path": {
+      "description": "Arrow type: string"
+    },
+    "bytes": {
+      "description": "Arrow type: int64"
+    },
+    "sha256": {
+      "description": "Arrow type: string"
+    },
+    "media_type": {
+      "description": "Arrow type: string"
+    },
+    "artifact_class": {
+      "description": "Arrow type: string"
+    },
+    "episode_id": {
+      "description": "Arrow type: string"
+    },
+    "role": {
+      "description": "Arrow type: string"
+    }
+  },
+  "required": [
+    "path",
+    "bytes",
+    "sha256",
+    "artifact_class"
+  ],
+  "additionalProperties": false
+}

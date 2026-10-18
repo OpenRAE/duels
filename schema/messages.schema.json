@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openrae.dev/datasets/duels/schema/messages.schema.json",
+  "title": "OpenR\u00c6 Duels messages row",
+  "type": "object",
+  "properties": {
+    "episode_id": {
+      "description": "Arrow type: string"
+    },
+    "role": {
+      "description": "Arrow type: string"
+    },
+    "sequence": {
+      "description": "Arrow type: int64"
+    },
+    "timestamp": {
+      "description": "Arrow type: string"
+    },
+    "timestamp_ms": {
+      "description": "Arrow type: int64"
+    },
+    "message_role": {
+      "description": "Arrow type: string"
+    },
+    "content_type": {
+      "description": "Arrow type: string"
+    },
+    "content": {
+      "description": "Arrow type: string"
+    },
+    "tool_call_id": {
+      "description": "Arrow type: string"
+    },
+    "tool_name": {
+      "description": "Arrow type: string"
+    },
+    "tool_input_json": {
+      "description": "Arrow type: string"
+    },
+    "tool_result_json": {
+      "description": "Arrow type: string"
+    },
+    "model": {
+      "description": "Arrow type: string"
+    },
+    "claude_session_id": {
+      "description": "Arrow type: string"
+    },
+    "claude_message_id": {
+      "description": "Arrow type: string"
+    },
+    "parent_tool_use_id": {
+      "description": "Arrow type: string"
+    },
+    "source_path": {
+      "description": "Arrow type: string"
+    },
+    "source_line": {
+      "description": "Arrow type: int64"
+    },
+    "source_sha256": {
+      "description": "Arrow type: string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "role",
+    "sequence",
+    "message_role",
+    "content_type",
+    "source_path",
+    "source_line",
+    "source_sha256"
+  ],
+  "additionalProperties": false
+}

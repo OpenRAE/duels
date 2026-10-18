@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openrae.dev/datasets/duels/schema/events.schema.json",
+  "title": "OpenR\u00c6 Duels events row",
+  "type": "object",
+  "properties": {
+    "episode_id": {
+      "description": "Arrow type: string"
+    },
+    "role": {
+      "description": "Arrow type: string"
+    },
+    "sequence": {
+      "description": "Arrow type: int64"
+    },
+    "timestamp": {
+      "description": "Arrow type: string"
+    },
+    "kind": {
+      "description": "Arrow type: string"
+    },
+    "round": {
+      "description": "Arrow type: int32"
+    },
+    "stream": {
+      "description": "Arrow type: string"
+    },
+    "event_type": {
+      "description": "Arrow type: string"
+    },
+    "event_subtype": {
+      "description": "Arrow type: string"
+    },
+    "claude_session_id": {
+      "description": "Arrow type: string"
+    },
+    "model": {
+      "description": "Arrow type: string"
+    },
+    "source_path": {
+      "description": "Arrow type: string"
+    },
+    "source_line": {
+      "description": "Arrow type: int64"
+    },
+    "source_sha256": {
+      "description": "Arrow type: string"
+    },
+    "raw_json": {
+      "description": "Arrow type: string"
+    }
+  },
+  "required": [
+    "episode_id",
+    "role",
+    "sequence",
+    "kind",
+    "source_path",
+    "source_line",
+    "source_sha256",
+    "raw_json"
+  ],
+  "additionalProperties": false
+}
